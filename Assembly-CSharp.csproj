@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\charplayer.cs" />
     <Compile Include="Assets\Scripts\TPSCam.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -5,9 +5,9 @@ using UnityEngine;
 public class TPSCam : MonoBehaviour
 {
     public Transform follow;
-    public float XOffset = 0;
-    public float YOffset = 0;
-    public float ZOffset = 0;
+   // public float XOffset = 0;
+    //public float YOffset = 0;
+    //public float ZOffset = 0;
     public float mouseSensitivity = 100;
     Vector3 newPos;
     Quaternion newRot;
@@ -35,7 +35,7 @@ public class TPSCam : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         transform.localRotation = Quaternion.Euler(xRotation,0f,0f);
 
-        newPos = new Vector3(follow.transform.position.x + XOffset, follow.transform.position.y + YOffset, follow.transform.position.z + ZOffset);
-        transform.position = newPos;
+        //newPos = new Vector3(follow.transform.position.x + XOffset, follow.transform.position.y + YOffset, follow.transform.position.z + ZOffset);
+        //transform.position = newPos;
     }
 }
