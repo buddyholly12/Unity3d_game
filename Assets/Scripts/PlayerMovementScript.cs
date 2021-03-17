@@ -15,6 +15,8 @@ public class PlayerMovementScript : MonoBehaviour
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
+
+    public Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,11 @@ public class PlayerMovementScript : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
+        Vector3 moveAlg = move * speed * Time.deltaTime;
+        // find a way to blend movement from idle to run
+        anim.SetFloat("MoveSpeed",z);
+        controller.Move(moveAlg);
+
 
         if (Input.GetButtonDown("Jump") && isGrounded == true) {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
