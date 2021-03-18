@@ -38,7 +38,8 @@ public class PlayerMovementScript : MonoBehaviour
         Vector3 move = transform.right * x + transform.forward * z;
         Vector3 moveAlg = move * speed * Time.deltaTime;
         // find a way to blend movement from idle to run
-        anim.SetFloat("MoveSpeed",z);
+        anim.SetFloat("MoveVertical",z);
+        anim.SetFloat("MoveHorizontal", x);
         controller.Move(moveAlg);
 
 
