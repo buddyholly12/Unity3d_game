@@ -1,0 +1,623 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16238 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\EditorInstalls\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProj/Unity3d_game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51016
+Successfully changed project path to: D:/UnityProj/Unity3d_game
+D:/UnityProj/Unity3d_game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 26.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProj/Unity3d_game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.5148
+Initialize mono
+Mono path[0] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001119 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 29.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for D:/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.exe
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1484 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 52.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 4.376100 ms (FindLiveObjects: 0.272700 ms CreateObjectMapping: 0.115800 ms MarkObjects: 3.819000 ms  DeleteObjects: 0.167400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/YBotCombat/Animations/run backwards.fbx
+  artifactKey: Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/run backwards.fbx using Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb36ce1224c528d07aabc0a504e3b7c7') in 0.085302 seconds
+  Import took 0.089213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/YBotCombat/Animations/strafe left.fbx
+  artifactKey: Guid(b31b68dc860956941b93cdd516cfe3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe left.fbx using Guid(b31b68dc860956941b93cdd516cfe3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ef143c6e5774c83f3529a9b5011bbf') in 0.006793 seconds
+  Import took 0.009487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/YBotCombat/Animations/hit reaction.fbx
+  artifactKey: Guid(165188fc2ecff434e94cf787fc9cdefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/hit reaction.fbx using Guid(165188fc2ecff434e94cf787fc9cdefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3c9eddad1756ab09f8e5865250b0c3') in 0.006565 seconds
+  Import took 0.008929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/YBotCombat/Animations/toss grenade.fbx
+  artifactKey: Guid(dfaf29923b7d1574f8db634ec7f2f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/toss grenade.fbx using Guid(dfaf29923b7d1574f8db634ec7f2f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a268404575a90a608ab9bd8c7e7f8d6') in 0.008058 seconds
+  Import took 0.010671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/YBotCombat/Animations/strafe right.fbx
+  artifactKey: Guid(554a8fc4b35e99449a1e750b1a01a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe right.fbx using Guid(554a8fc4b35e99449a1e750b1a01a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ba6c73bb65a92a0a786214ae0244bc') in 0.011297 seconds
+  Import took 0.013847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/YBotCombat/Animations/turning right 45 degrees.fbx
+  artifactKey: Guid(949979d767eb9a74e81be06f60019ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/turning right 45 degrees.fbx using Guid(949979d767eb9a74e81be06f60019ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba0d48e9cef0bc054f2a9918b24fb80') in 0.006425 seconds
+  Import took 0.009297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/YBotCombat/Animations/firing rifle.fbx
+  artifactKey: Guid(a14100a28a9ea844ea026c93ca37a9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/firing rifle.fbx using Guid(a14100a28a9ea844ea026c93ca37a9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db19a90b604350b8b81a31e773093c03') in 0.006492 seconds
+  Import took 0.011108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/YBotCombat/Animations/rifle run.fbx
+  artifactKey: Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle run.fbx using Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de0f2471011b96777e86366ff1c2663') in 0.006646 seconds
+  Import took 0.010943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/YBotCombat/Animations/strafe.fbx
+  artifactKey: Guid(ebe38546a04a33e419b8a752550a5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe.fbx using Guid(ebe38546a04a33e419b8a752550a5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2b7d56f1d6c35e548bac4d3344bc31') in 0.007325 seconds
+  Import took 0.011590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/YBotCombat/Animations/walking.fbx
+  artifactKey: Guid(dcd50dcffe0c6b34bb2ad781d73ac480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/walking.fbx using Guid(dcd50dcffe0c6b34bb2ad781d73ac480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f565df7a3b339f65db05d664e7f7e92b') in 0.008449 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/YBotCombat/Animations/strafe (2).fbx
+  artifactKey: Guid(09cc04ac86e25b84ea949b06d4b9e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe (2).fbx using Guid(09cc04ac86e25b84ea949b06d4b9e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9297813ea7513de91674460107864001') in 0.005996 seconds
+  Import took 0.009475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/YBotCombat/Animations/turn left.fbx
+  artifactKey: Guid(ae74ee108e05f8e45b080a6c39040c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/turn left.fbx using Guid(ae74ee108e05f8e45b080a6c39040c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6bdd59152b3f5eda49181c88db93e3') in 0.008147 seconds
+  Import took 0.012996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/YBotCombat/Animations/reloading.fbx
+  artifactKey: Guid(2f8a0d7f72e34884a92895792da5218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/reloading.fbx using Guid(2f8a0d7f72e34884a92895792da5218f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e9208be4a69ac8200c7f14411df310') in 0.012222 seconds
+  Import took 0.016928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/YBotCombat/Animations/rifle jump.fbx
+  artifactKey: Guid(397a5ab328995d74f93f784266418af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle jump.fbx using Guid(397a5ab328995d74f93f784266418af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2db0f7e3bd9a0a36c78ea1ee741dc70') in 0.009033 seconds
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/YBotCombat/Animations/walking backwards.fbx
+  artifactKey: Guid(4562e7c678a58ca46aa9939a83b7b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/walking backwards.fbx using Guid(4562e7c678a58ca46aa9939a83b7b9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a3d2c4951693353c6ff121fd9dc8fe') in 0.008415 seconds
+  Import took 0.012394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/YBotCombat/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle aiming idle.fbx using Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7105c777ba97c1f9ba9670295e7c30') in 0.007712 seconds
+  Import took 0.011994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.250582 seconds.
+  path: Assets/YBotCombat/Animations/hit reaction dupe.anim
+  artifactKey: Guid(cc9ed9b5ee09acd4bb15e0581cd1a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/hit reaction dupe.anim using Guid(cc9ed9b5ee09acd4bb15e0581cd1a90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88afd23cda649bbb3c8e548468e275f9') in 0.031620 seconds
+  Import took 0.035675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 75.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 3.873600 ms (FindLiveObjects: 0.366800 ms CreateObjectMapping: 0.131500 ms MarkObjects: 3.271900 ms  DeleteObjects: 0.102000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.568141 seconds.
+  path: Assets/YBotCombat/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle aiming idle.fbx using Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d345d610199f0a559687158ec4d899') in 0.040234 seconds
+  Import took 0.044519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.721601 seconds.
+  path: Assets/YBotCombat/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle aiming idle.fbx using Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5cf9fda714f0648ca5dca917905271') in 0.006648 seconds
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.496121 seconds.
+  path: Assets/YBotCombat/Animations/rifle run.fbx
+  artifactKey: Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle run.fbx using Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4377693896359865605a81dec7ac4321') in 0.007047 seconds
+  Import took 0.011155 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1930.
+Total: 4.790100 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.083100 ms MarkObjects: 4.241900 ms  DeleteObjects: 0.135300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.870422 seconds.
+  path: Assets/YBotCombat/Animations/run backwards.fbx
+  artifactKey: Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/run backwards.fbx using Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbf67cbb6531750cd54fcf462296c08') in 0.039105 seconds
+  Import took 0.042669 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000744 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 3.268800 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.166700 ms MarkObjects: 2.730700 ms  DeleteObjects: 0.101400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.777558 seconds.
+  path: Assets/YBotCombat/Animations/rifle run.fbx
+  artifactKey: Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle run.fbx using Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77256cfa8bb3bd26f9aac03765dd2ddf') in 0.042245 seconds
+  Import took 0.047432 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.219 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1934.
+Total: 3.169300 ms (FindLiveObjects: 0.242400 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.653600 ms  DeleteObjects: 0.222000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.676885 seconds.
+  path: Assets/YBotCombat/Animations/rifle run.fbx
+  artifactKey: Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle run.fbx using Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e719cd9a404145cb984ac3dbb24ccf') in 0.040828 seconds
+  Import took 0.047267 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 4.159200 ms (FindLiveObjects: 0.298300 ms CreateObjectMapping: 0.088500 ms MarkObjects: 3.690100 ms  DeleteObjects: 0.081000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.030000 seconds.
+  path: Assets/YBotCombat/Animations/run backwards.fbx
+  artifactKey: Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/run backwards.fbx using Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbdff75092b24b60b640e7e7e27bc63') in 0.040908 seconds
+  Import took 0.045520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.955911 seconds.
+  path: Assets/YBotCombat/Animations/run backwards.fbx
+  artifactKey: Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/run backwards.fbx using Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6bca8496073e11e99f47cd6f3ee6c7') in 0.007026 seconds
+  Import took 0.011676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 3.672100 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.264200 ms MarkObjects: 2.975500 ms  DeleteObjects: 0.121700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.575940 seconds.
+  path: Assets/YBotCombat/Animations/rifle aiming idle.fbx
+  artifactKey: Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle aiming idle.fbx using Guid(0dc0f93e4cfccfe40a23d151c1e5f96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b008c2863b613277fcb41a1e20e9490') in 0.039848 seconds
+  Import took 0.043464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.639888 seconds.
+  path: Assets/YBotCombat/Animations/strafe.fbx
+  artifactKey: Guid(ebe38546a04a33e419b8a752550a5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe.fbx using Guid(ebe38546a04a33e419b8a752550a5b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb9e823169273de5c0958c5c66f3803') in 0.007173 seconds
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000755 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 3.548100 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.108000 ms MarkObjects: 2.918400 ms  DeleteObjects: 0.163400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.711174 seconds.
+  path: Assets/YBotCombat/Animations/strafe (2).fbx
+  artifactKey: Guid(09cc04ac86e25b84ea949b06d4b9e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/strafe (2).fbx using Guid(09cc04ac86e25b84ea949b06d4b9e0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428bcc8d224e37092a92e7abfeee3501') in 0.043754 seconds
+  Import took 0.048712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.798928 seconds.
+  path: Assets/YBotCombat/Animations/rifle run.fbx
+  artifactKey: Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle run.fbx using Guid(4f2bbcb9f24f66e4c87eab0d7f2031f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aebc2c7355bf2c12632f1b7f55edb54') in 0.007358 seconds
+  Import took 0.010269 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.5 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 3.681200 ms (FindLiveObjects: 0.254000 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.205700 ms  DeleteObjects: 0.105400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.057230 seconds.
+  path: Assets/YBotCombat/Animations/run backwards.fbx
+  artifactKey: Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/run backwards.fbx using Guid(682d37deccb4b35419fd3c683500fb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10d531e8e0c01a7f576f66c248f3a5c') in 0.042132 seconds
+  Import took 0.046056 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 4.361200 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.050400 ms MarkObjects: 3.866300 ms  DeleteObjects: 0.152300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000823 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.105 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 2.926800 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.456200 ms  DeleteObjects: 0.104500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2492.945250 seconds.
+  path: Assets/YBotCombat/Animations/rifle jump.fbx
+  artifactKey: Guid(397a5ab328995d74f93f784266418af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YBotCombat/Animations/rifle jump.fbx using Guid(397a5ab328995d74f93f784266418af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9879b311ea2a33ade072957e98dc221') in 0.051529 seconds
+  Import took 0.056854 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 3.086200 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.508900 ms  DeleteObjects: 0.155100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 3.002800 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.136700 ms MarkObjects: 2.495100 ms  DeleteObjects: 0.087100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1477 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 2.979700 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.102700 ms MarkObjects: 2.428400 ms  DeleteObjects: 0.106400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

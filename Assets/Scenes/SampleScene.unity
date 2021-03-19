@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 812026924}
-  speed: 1
+  speed: 4
   gravity: -19.6
   jumpHeight: 2
   groundCheck: {fileID: 679850044}
@@ -1355,7 +1355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.09849961, y: -0, z: -0, w: 0.99513716}
-  m_LocalPosition: {x: 0.56, y: 1.24, z: -1.06}
+  m_LocalPosition: {x: 0.56, y: 0.72, z: -0.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 812026923}
@@ -1486,7 +1486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9500000, guid: 3e85f5e81e9b7db48860d396ecb8f1e6, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e85f5e81e9b7db48860d396ecb8f1e6, type: 3}
