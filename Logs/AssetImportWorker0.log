@@ -15,11 +15,11 @@ D:/UnityProj/Unity3d_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58545
+58794
 Successfully changed project path to: D:/UnityProj/Unity3d_game
 D:/UnityProj/Unity3d_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,58 +35,176 @@ Initialize mono
 Mono path[0] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001093 seconds.
+Registered in 0.001105 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for D:\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.920 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000782 seconds.
+Registered in 0.000791 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.389 seconds
+- Completed reload, in  1.388 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1487 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 75.4 MB.
 System memory in use after: 75.5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1929.
-Total: 2.772400 ms (FindLiveObjects: 0.230600 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.309900 ms  DeleteObjects: 0.171100 ms)
+Total: 2.739200 ms (FindLiveObjects: 0.162400 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.350000 ms  DeleteObjects: 0.165700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Zombie
-  artifactKey: Guid(57c62880cec9e2642a378ab6148e6123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie using Guid(57c62880cec9e2642a378ab6148e6123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54306de21dfb823b49db1e658a23a31') in 0.003578 seconds
-  Import took 0.005603 seconds .
+  path: Assets/AnimatorController/ZombieAnimCont.controller
+  artifactKey: Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorController/ZombieAnimCont.controller using Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f1bd1a518171cd192d38fe8cba60e7') in 0.050699 seconds
+  Import took 0.052917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.911926 seconds.
-  path: Assets/Zombie/zombie.fbx
-  artifactKey: Guid(bd7a07f91c454ac4caab2546bdfc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/zombie.fbx using Guid(bd7a07f91c454ac4caab2546bdfc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5917f00c34fc7df92dff54b87632ce04') in 0.239080 seconds
-  Import took 0.241967 seconds .
+  Time since last request: 186.352342 seconds.
+  path: Assets/AnimatorController/ZombieAnimCont.controller
+  artifactKey: Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorController/ZombieAnimCont.controller using Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f2c837d4bff476b1200eefc51da153') in 0.003536 seconds
+  Import took 0.006779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006069 seconds.
+  path: Assets/AnimatorController/ZombieAnimCont.controller
+  artifactKey: Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorController/ZombieAnimCont.controller using Guid(221d058db7208754b9bf8088fc1e0117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f2c837d4bff476b1200eefc51da153') in 0.004736 seconds
+  Import took 0.007160 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1480 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1931.
+Total: 2.756200 ms (FindLiveObjects: 0.139100 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.438700 ms  DeleteObjects: 0.129200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.308526 seconds.
+  path: Assets/Zombie/Armature_Walk.anim
+  artifactKey: Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Armature_Walk.anim using Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27daf231cef4fa07e6b8de7a3007a8c0') in 0.026097 seconds
+  Import took 0.029157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.634043 seconds.
+  path: Assets/Zombie/ZombieWalk.anim
+  artifactKey: Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieWalk.anim using Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8951ffa1a3c90c595bbb42e92902acbc') in 0.015739 seconds
+  Import took 0.018225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.976308 seconds.
+  path: Assets/Zombie/Armature_Tpose.anim
+  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Armature_Tpose.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e79b217fb36537746cc2b19700da80b') in 0.008870 seconds
+  Import took 0.011753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002604 seconds.
+  path: Assets/Zombie/Armature_Tpose.anim
+  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/Armature_Tpose.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e79b217fb36537746cc2b19700da80b') in 0.004021 seconds
+  Import took 0.007298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.059225 seconds.
+  path: Assets/Zombie/ZombieIdle.anim
+  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieIdle.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f04317da581306d81c7d387486ba35') in 0.009091 seconds
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.871805 seconds.
+  path: Assets/Zombie/ZombieIdle.anim
+  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieIdle.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88880b7f8b0a76a2506e163f2985abd9') in 0.003371 seconds
+  Import took 0.006888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011347 seconds.
+  path: Assets/Zombie/ZombieIdle.anim
+  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieIdle.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88880b7f8b0a76a2506e163f2985abd9') in 0.004211 seconds
+  Import took 0.006802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555750 seconds.
+  path: Assets/Zombie/ZombieWalk.anim
+  artifactKey: Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zombie/ZombieWalk.anim using Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b4b993555112ad59464a74ad6b1e53') in 0.014173 seconds
+  Import took 0.018584 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000887 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1480 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 2.309400 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.113600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
