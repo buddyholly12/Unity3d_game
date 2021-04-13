@@ -2143,7 +2143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2542616874235148620, guid: 9e1c5bcd1124c1741b1fc4f31aafd495, type: 3}
       propertyPath: Attack_range
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2542616874235148620, guid: 9e1c5bcd1124c1741b1fc4f31aafd495, type: 3}
       propertyPath: targetMask.m_Bits
