@@ -66,8 +66,10 @@ public class AIScript : MonoBehaviour
             Transform EnemyCube = visibleTargets[0];
             Vector3 targetDir = EnemyCube.position - transform.position;
             float angleToPlayer = (Vector3.Angle(targetDir, transform.forward));
-            if (angleToPlayer >= -90 && angleToPlayer <= 90) // 180‹ FOV
-                Debug.Log("PatrolTarget in sight!");
+            //if (angleToPlayer >= -90 && angleToPlayer <= 90) {
+            //    Debug.Log("PatrolTarget in sight!");
+            //} // 180‹ FOV
+                
 
             float DistanceEnemy = (EnemyCube.transform.position - transform.position).magnitude;
 
