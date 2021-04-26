@@ -55,13 +55,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShootProjectileScript.cs" />
     <Compile Include="Assets\Scripts\TPSCam.cs" />
+    <Compile Include="Assets\Scripts\ShootRaycastScript.cs" />
     <Compile Include="Assets\Scripts\ShootProjectileScriptFunny.cs" />
     <Compile Include="Assets\Scripts\SceneSetupScript.cs" />
     <Compile Include="Assets\Scenes\charplayer.cs" />
     <Compile Include="Assets\Zombie\AI\AIScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\ShootRaycastScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
