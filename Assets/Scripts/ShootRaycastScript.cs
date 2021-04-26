@@ -19,6 +19,11 @@ public class ShootRaycastScript : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(ShootersCam.transform.position, ShootersCam.transform.forward, out hit, range)) {
             Debug.Log(hit.transform.name);
+            TakeDamageScript tds = hit.transform.GetComponent<TakeDamageScript>();
+
+            if (tds != null) {
+                tds.TakeDamage(damage);
+            }
         }
     }
 }
