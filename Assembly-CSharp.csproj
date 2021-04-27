@@ -60,9 +60,10 @@
     <Compile Include="Assets\Scripts\SceneSetupScript.cs" />
     <Compile Include="Assets\Scenes\charplayer.cs" />
     <Compile Include="Assets\Zombie\AI\AIScript.cs" />
+    <Compile Include="Assets\Scripts\TakeDamageScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\TakeDamageScript.cs" />
+    <Compile Include="Assets\Scripts\HealthBarScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
