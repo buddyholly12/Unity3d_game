@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShootProjectileScript.cs" />
     <Compile Include="Assets\Scripts\TPSCam.cs" />
+    <Compile Include="Assets\Scripts\SceneChangeScript.cs" />
     <Compile Include="Assets\Scripts\ShootRaycastScript.cs" />
     <Compile Include="Assets\Scripts\ShootProjectileScriptFunny.cs" />
     <Compile Include="Assets\Scripts\SceneSetupScript.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Scripts\TakeDamageScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
-    <Compile Include="Assets\Scripts\SceneChangeScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
