@@ -11,16 +11,24 @@ public class RandomSpawnerScript : MonoBehaviour
     public float spawnTime;
     public float spawnDelay;
     public int stop;
+    public WinLoseConditionScript WLCS;
+    public int maxZombieSpawn;
+    public int numZombieSpawned = 0;
     // Start is called before the first frame update
     void Start()
     {
         stop = 0;
         InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
+        maxZombieSpawn = WLCS.getSpawnLimit();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (numZombieSpawned >= maxZombieSpawn - 1) {
+            stopSpawning = true;
+        }
+
         spawneeTracker.ForEach(delegate(GameObject gamObj){
             if (gamObj == null) {
                 spawneeTracker.Remove(gamObj);
@@ -32,6 +40,11 @@ public class RandomSpawnerScript : MonoBehaviour
             InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
             stop = 0;
         }
+
+        if (numZombieSpawned >= maxZombieSpawn && spawneeTracker.Count == 0) {
+            WLCS.Win();
+        }
+
     }
     public void SpawnObject()
     {
@@ -41,6 +54,7 @@ public class RandomSpawnerScript : MonoBehaviour
 
         int randomInt = Random.Range(0, spawnees.Length);
         spawneeTracker.Add(Instantiate(spawnees[randomInt], pos, Quaternion.identity));
+        numZombieSpawned++;
 
         if (stopSpawning)
         {
@@ -49,10 +63,5 @@ public class RandomSpawnerScript : MonoBehaviour
         }
 
 
-    }
-
-    public bool SpawnedInstanceDestroyed() {
-        Debug.Log("1 Kill");
-        return true;
     }
 }

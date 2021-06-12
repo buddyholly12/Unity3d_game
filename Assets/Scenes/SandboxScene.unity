@@ -1128,6 +1128,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
+      propertyPath: WLCS
+      value: 
+      objectReference: {fileID: 1103437883}
+    - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: size.x
       value: 1
       objectReference: {fileID: 0}
@@ -1205,6 +1209,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
+--- !u!114 &1103437883 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+  m_PrefabInstance: {fileID: 1390874949}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0637dfd2966be5648bf700ab995422c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1237489912
 GameObject:
   m_ObjectHideFlags: 0
