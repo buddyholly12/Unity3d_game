@@ -62,7 +62,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   viewRadius: 10
-  viewAngle: 360
+  viewAngle: 270
   visibleTargets: []
 --- !u!136 &-8042509427642689808
 CapsuleCollider:
