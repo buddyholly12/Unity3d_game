@@ -60,8 +60,8 @@ MonoBehaviour:
   center: {x: 0, y: 0, z: 0}
   size: {x: 0, y: 0, z: 0}
   spawnees:
-  - {fileID: 245668900310758213, guid: 77af25a0e3abfa440bd596b62b4536e6, type: 3}
+  - {fileID: 0}
   stopSpawning: 0
-  spawnTime: 0
-  spawnDelay: 0
+  spawnTime: 1
+  spawnDelay: 3
   stop: 0
