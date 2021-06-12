@@ -62,12 +62,13 @@
     <Compile Include="Assets\Scripts\HealthBarScript.cs" />
     <Compile Include="Assets\Scenes\charplayer.cs" />
     <Compile Include="Assets\Scripts\PlayerHealthScript.cs" />
+    <Compile Include="Assets\Scripts\RandomSpawnerScript.cs" />
     <Compile Include="Assets\Zombie\AI\AIScript.cs" />
     <Compile Include="Assets\Scripts\TakeDamageScript.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\SpawnerScript.cs" />
-    <Compile Include="Assets\Scripts\RandomSpawnerScript.cs" />
+    <Compile Include="Assets\Scripts\WinLoseConditionScript.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
