@@ -41,7 +41,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245668900310758213}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d763daef9ee5ec848896d02e556b5644, type: 3}
   m_Name: 
@@ -51,10 +51,7 @@ MonoBehaviour:
   MoveSpeed: 2
   RotSpeed: 100
   Destination: 0
-  pos1: {fileID: 0}
-  pos2: {fileID: 0}
-  pos3: {fileID: 0}
-  pos4: {fileID: 0}
+  patrolMarkers: []
   targetMask:
     serializedVersion: 2
     m_Bits: 64

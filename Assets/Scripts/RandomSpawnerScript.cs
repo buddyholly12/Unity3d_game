@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class RandomSpawnerScript : MonoBehaviour
 {
-    public Vector3 center, size;
+    public Vector3 size;
+    //public Vector3 center;
     public GameObject[] spawnees;
     public List<GameObject> spawneeTracker;
     public bool stopSpawning = false;
@@ -48,7 +49,7 @@ public class RandomSpawnerScript : MonoBehaviour
     }
     public void SpawnObject()
     {
-        Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2),
+        Vector3 pos = transform.position + new Vector3(Random.Range(-size.x / 2, size.x / 2),
             Random.Range(-size.y / 2, size.y / 2),
             Random.Range(-size.z / 2, size.z / 2));
 

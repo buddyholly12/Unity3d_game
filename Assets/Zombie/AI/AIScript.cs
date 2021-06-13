@@ -11,7 +11,7 @@ public class AIScript : MonoBehaviour
     public int MoveSpeed;
     public int RotSpeed;
     public float Destination;
-    public Transform pos1, pos2, pos3, pos4;
+    public List<Transform> patrolMarkers;
     public LayerMask targetMask;
     public LayerMask obstacleMask;
     public float viewRadius;
@@ -26,14 +26,21 @@ public class AIScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Destination == 1f)
-            PatrolTarget = pos1;
-        else if (Destination == 2f)
-            PatrolTarget = pos2;
-        else if (Destination == 3f)
-            PatrolTarget = pos3;
-        else if (Destination == 4f)
-            PatrolTarget = pos4;
+        if (patrolMarkers.Count != 0)
+        {
+            //if (Destination == 1f)
+            //    PatrolTarget = pos1;
+            //else if (Destination == 2f)
+            //    PatrolTarget = pos2;
+            //else if (Destination == 3f)
+            //    PatrolTarget = pos3;
+            //else if (Destination == 4f)
+            //    PatrolTarget = pos4;
+        }
+        else {
+            PatrolTarget = transform;
+        }
+
 
         visibleTargets.Clear();
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
