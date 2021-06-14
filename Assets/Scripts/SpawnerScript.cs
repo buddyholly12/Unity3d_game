@@ -24,5 +24,9 @@ public class SpawnerScript : MonoBehaviour
         SpawnTracker = Instantiate(prefabrication, transform);
     }
 
+    public Camera GetSpawnTrackerCam() {
+        //return SpawnTracker.GetComponentInChildren(typeof(Camera)) as Camera;
+    }
+
 
 }

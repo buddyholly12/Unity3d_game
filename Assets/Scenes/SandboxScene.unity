@@ -1061,6 +1061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toSpawn: {fileID: 7418104644346746144, guid: 4726714dcdf8f154f831a244eedc755d, type: 3}
+  SpawnTracker: {fileID: 0}
 --- !u!1 &842188066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,7 +1394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spectatorCam: {fileID: 579287658}
   activePlayerCam: {fileID: 1950797774}
-  PlayerCams: {fileID: 0}
+  spawnScript: {fileID: 795401394}
 --- !u!114 &931224989
 MonoBehaviour:
   m_ObjectHideFlags: 0
