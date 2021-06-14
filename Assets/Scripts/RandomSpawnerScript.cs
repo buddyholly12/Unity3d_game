@@ -65,4 +65,9 @@ public class RandomSpawnerScript : MonoBehaviour
 
 
     }
+
+    void OnDrawGizmosSelected() {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireCube(transform.position,size);
+    }
 }

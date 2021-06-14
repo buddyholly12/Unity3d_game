@@ -1133,7 +1133,7 @@ PrefabInstance:
       objectReference: {fileID: 1103437883}
     - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: size.x
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: size.y
@@ -1141,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: size.z
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: spawnTime
