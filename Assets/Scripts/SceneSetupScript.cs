@@ -5,10 +5,11 @@ using UnityEngine;
 public class SceneSetupScript : MonoBehaviour
 {
     public Camera spectateCam;
-    public Camera playerCamera;
+    public Camera playerCam;
     // Start is called before the first frame update
     void Start()
     {
+        playerCam.enabled = true;
         spectateCam.enabled = false;
     }
 

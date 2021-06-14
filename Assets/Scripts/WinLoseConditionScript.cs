@@ -16,6 +16,7 @@ public class WinLoseConditionScript : MonoBehaviour
     public int getSpawnLimit() {
         return zombieToKill;
     }
+
     // Update is called once per frame
     void Update()
     {

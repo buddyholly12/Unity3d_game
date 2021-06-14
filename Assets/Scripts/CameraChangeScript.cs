@@ -4,15 +4,32 @@ using UnityEngine;
 
 public class CameraChangeScript : MonoBehaviour
 {
+    public Camera spectatorCam;
+    public Camera playerCam;
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
+    void Update(){
+        if (playerCam == null) {
+            ChangeToSpectatorCam();
+        }
+        else
+        {
+            ChangeToPlayerCam();
+        }
     }
+
+    void ChangeToPlayerCam() {
+        playerCam.enabled = true;
+        spectatorCam.enabled = false;
+    }
+
+    void ChangeToSpectatorCam(){
+        spectatorCam.enabled = true;
+        playerCam.enabled = false;
+    }
+
 }

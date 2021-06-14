@@ -14,6 +14,9 @@ public class StickToScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = objToStickTo.transform.position;
+        
+        if (objToStickTo != null) {
+            transform.position = objToStickTo.transform.position;
+        }
     }
 }
