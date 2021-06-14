@@ -21,10 +21,19 @@ public class PlayerHealthScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) {
             TakeDamage(20);
         }
+
+        if (currentHealth < 0) {
+            Die();
+        }
     }
 
     void TakeDamage(float damage) {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }
