@@ -5,7 +5,8 @@ using UnityEngine;
 public class CameraChangeScript : MonoBehaviour
 {
     public Camera spectatorCam;
-    public Camera playerCam;
+    public Camera activePlayerCam;
+    public Camera PlayerCams;
     // Start is called before the first frame update
     void Start(){
         
@@ -13,7 +14,9 @@ public class CameraChangeScript : MonoBehaviour
 
     // Update is called once per frame
     void Update(){
-        if (playerCam == null) {
+
+
+        if (activePlayerCam == null) {
             ChangeToSpectatorCam();
         }
         else
@@ -23,13 +26,18 @@ public class CameraChangeScript : MonoBehaviour
     }
 
     void ChangeToPlayerCam() {
-        playerCam.enabled = true;
+        activePlayerCam.enabled = true;
         spectatorCam.enabled = false;
     }
 
     void ChangeToSpectatorCam(){
         spectatorCam.enabled = true;
-        playerCam.enabled = false;
+        activePlayerCam.enabled = false;
+    }
+
+    void FindAllCamInScene()
+    {
+        
     }
 
 }

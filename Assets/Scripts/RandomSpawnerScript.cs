@@ -13,20 +13,20 @@ public class RandomSpawnerScript : MonoBehaviour
     public float spawnDelay;
     public int stop;
     public WinLoseConditionScript WLCS;
-    public int maxZombieSpawn;
-    public int numZombieSpawned = 0;
+    public int maxSpawn;
+    public int numSpawned = 0;
     // Start is called before the first frame update
     void Start()
     {
         stop = 0;
         InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
-        maxZombieSpawn = WLCS.getSpawnLimit();
+        maxSpawn = WLCS.getSpawnLimit();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (numZombieSpawned >= maxZombieSpawn - 1) {
+        if (numSpawned >= maxSpawn - 1) {
             stopSpawning = true;
         }
 
@@ -42,7 +42,7 @@ public class RandomSpawnerScript : MonoBehaviour
             stop = 0;
         }
 
-        if (numZombieSpawned >= maxZombieSpawn && spawneeTracker.Count == 0) {
+        if (numSpawned >= maxSpawn && spawneeTracker.Count == 0) {
             WLCS.Win();
         }
 
@@ -55,7 +55,7 @@ public class RandomSpawnerScript : MonoBehaviour
 
         int randomInt = Random.Range(0, spawnees.Length);
         spawneeTracker.Add(Instantiate(spawnees[randomInt], pos, Quaternion.identity));
-        numZombieSpawned++;
+        numSpawned++;
 
         if (stopSpawning)
         {
