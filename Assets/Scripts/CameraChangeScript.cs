@@ -9,30 +9,36 @@ public class CameraChangeScript : MonoBehaviour
     public SpawnerScript spawnScript;
     // Start is called before the first frame update
     void Start(){
-        activePlayerCam = spawnScript.GetSpawnTrackerCam();
+        
     }
 
     // Update is called once per frame
     void Update(){
-
-
-        if (activePlayerCam == null) {
-            ChangeToSpectatorCam();
-        }
-        else
+        try
         {
+            activePlayerCam = spawnScript.GetSpawnTrackerCam();
+        }
+        catch {
+            ChangeToSpectatorCam();
+        } 
+
+        if (activePlayerCam != null) {
             ChangeToPlayerCam();
         }
+        
     }
 
     void ChangeToPlayerCam() {
+        
         activePlayerCam.enabled = true;
         spectatorCam.enabled = false;
     }
 
     void ChangeToSpectatorCam(){
+        //activePlayerCam.enabled = false;
         spectatorCam.enabled = true;
-        activePlayerCam.enabled = false;
+        
+        
     }
 
 }

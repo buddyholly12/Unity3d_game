@@ -9,10 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2848592661499020777}
-  - component: {fileID: 7521374619427609961}
   - component: {fileID: 1040469551408387342}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: ZombieSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,19 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7521374619427609961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5765150526110260301}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c481d773cd767044aa49b58618d83b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toSpawn: {fileID: 0}
 --- !u!114 &1040469551408387342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57,11 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16fb1bcfa1f16814d99bd14fc3dcf58b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  center: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0, z: 0}
+  size: {x: 5, y: 0, z: 5}
   spawnees:
-  - {fileID: 0}
+  - {fileID: 245668900310758213, guid: 77af25a0e3abfa440bd596b62b4536e6, type: 3}
+  spawneeTracker: []
   stopSpawning: 0
   spawnTime: 1
   spawnDelay: 3
   stop: 0
+  WLCS: {fileID: 0}
+  maxSpawn: 0
+  numSpawned: 0
