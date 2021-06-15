@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WinLoseConditionScript : MonoBehaviour
 {
-    public RandomSpawnerScript RandSpawnScr;
+    public RandomSpawnerScript ZombieSpawnScr;
     public SpawnerScript PlayerSpawnScr;
     public int zombieToKill = 5;
     public int lifeLimit = 1;
