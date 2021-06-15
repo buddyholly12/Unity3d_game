@@ -20,7 +20,7 @@ public class RandomSpawnerScript : MonoBehaviour
     {
         stop = 0;
         InvokeRepeating("SpawnObject", spawnTime, spawnDelay);
-        maxSpawn = WLCS.getSpawnLimit();
+        maxSpawn = WLCS.getZombieSpawnLimit();
     }
 
     // Update is called once per frame

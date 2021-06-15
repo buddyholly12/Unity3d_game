@@ -8,6 +8,7 @@ public class PlayerHealthScript : MonoBehaviour
     public float maxHealth = 100f;
     public float currentHealth;
     public HealthBarScript healthBar;
+    
     // Start is called before the first frame update
     void Start()
     {

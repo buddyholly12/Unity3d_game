@@ -5,6 +5,7 @@ using UnityEngine;
 public class WinLoseConditionScript : MonoBehaviour
 {
     public RandomSpawnerScript RandSpawnScr;
+    public SpawnerScript PlayerSpawnScr;
     public int zombieToKill = 5;
     public int lifeLimit = 1;
     // Start is called before the first frame update
@@ -13,8 +14,12 @@ public class WinLoseConditionScript : MonoBehaviour
         
     }
 
-    public int getSpawnLimit() {
+    public int getZombieSpawnLimit() {
         return zombieToKill;
+    }
+
+    public int getPlayerSpawnLimit() {
+        return lifeLimit;
     }
 
     // Update is called once per frame
