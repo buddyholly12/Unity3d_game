@@ -17,7 +17,8 @@ public class ShootProjectileScript : MonoBehaviour
     void Update()
     {
         Rigidbody BulletInstance;
-        if (Input.GetButtonDown("Fire1")) {
+
+        if (Input.GetButton("Fire2") && Input.GetButtonDown("Fire1")) {
             BulletInstance = Instantiate(projectile,shootPoint.position,shootPoint.rotation) as Rigidbody;
             
             BulletInstance.AddForce(shootPoint.forward * projectileSpeed);
