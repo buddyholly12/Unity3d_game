@@ -13,11 +13,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-34187
+37955
 Successfully changed project path to: /home/andreas/Desktop/Unity3d_game-master
 /home/andreas/Desktop/Unity3d_game-master
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30,25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51,50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
 [Subsystems] Discovering subsystems at path /home/andreas/app_unity/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -38,289 +38,125 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
  GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1295955688
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1412177976
 Initialize mono
 Mono path[0] = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/Managed'
 Mono path[1] = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56918
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56670
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/andreas/app_unity/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/andreas/app_unity/2020.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,001087 seconds.
+Registered in 0,001203 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31,60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33,94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,185 seconds
+- Completed reload, in  1,234 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,000610 seconds.
+Registered in 0,000961 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,476 seconds
+- Completed reload, in  1,723 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71,5 MB.
+System memory in use before: 71,6 MB.
 System memory in use after: 71,6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1955.
-Total: 3,721492 ms (FindLiveObjects: 0,258696 ms CreateObjectMapping: 0,095019 ms MarkObjects: 3,145149 ms  DeleteObjects: 0,220064 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 3,064648 ms (FindLiveObjects: 0,258636 ms CreateObjectMapping: 0,059071 ms MarkObjects: 2,606317 ms  DeleteObjects: 0,137769 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/YBotCombat/YBot/Materials/Alpha_Body_MAT.mat
-  artifactKey: Guid(3c136276007b3d74a88086893ff8ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YBotCombat/YBot/Materials/Alpha_Body_MAT.mat using Guid(3c136276007b3d74a88086893ff8ecf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8a5560fc9425832a09319ede9b0029') in 0,089749 seconds
-  Import took 0,093907 seconds .
+  path: Assets/Scenes/DesertScene.unity
+  artifactKey: Guid(743912512aca798468cf3d7ac8f0ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DesertScene.unity using Guid(743912512aca798468cf3d7ac8f0ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc5b3519effc4720befb4658c8a9584') in 0,013899 seconds
+  Import took 0,017819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000202 seconds.
-  path: Assets/LPSoldier/models/Materials/demo_soldier_512.mat
-  artifactKey: Guid(d254fff565ecf3a45abfc61b2357009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LPSoldier/models/Materials/demo_soldier_512.mat using Guid(d254fff565ecf3a45abfc61b2357009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd468867f6381e7f673bcc9a511002322') in 0,013122 seconds
-  Import took 0,015744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000205 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkySunset.mat
-  artifactKey: Guid(ac2eeb98f1b423941b373f537bc56e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkySunset.mat using Guid(ac2eeb98f1b423941b373f537bc56e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e726fa08d46ae226f0ac5d9542c43d05') in 0,268740 seconds
-  Import took 0,271557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000172 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ef0368f8182af43b07e47223d61fd3') in 0,040727 seconds
-  Import took 0,043830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000187 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyMidnight.mat
-  artifactKey: Guid(97637a2a763b7f24b8da4e139e4144ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyMidnight.mat using Guid(97637a2a763b7f24b8da4e139e4144ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3080ecdf5985c52003a09ffb194cf5bd') in 0,019916 seconds
-  Import took 0,024225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000204 seconds.
-  path: Assets/YBotCombat/YBot/Materials/Alpha_Joints_MAT.mat
-  artifactKey: Guid(19fbba7ff7271664d927ba8cddfe7669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YBotCombat/YBot/Materials/Alpha_Joints_MAT.mat using Guid(19fbba7ff7271664d927ba8cddfe7669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f47b02fef0f70c139bbd0b5615b0e06') in 0,010266 seconds
-  Import took 0,014185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000196 seconds.
-  path: Assets/LowPolySoldiers_demo/models/Materials/demo_weapon.mat
-  artifactKey: Guid(f1ffde0cab3b53e4b8db6c78d825b21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolySoldiers_demo/models/Materials/demo_weapon.mat using Guid(f1ffde0cab3b53e4b8db6c78d825b21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc65f2ebffb6764c49e4f418874bd6') in 0,015505 seconds
-  Import took 0,019548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000173 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyMorning.mat
-  artifactKey: Guid(9991b6265f7f87d43b7e3c676739f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyMorning.mat using Guid(9991b6265f7f87d43b7e3c676739f203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1982e9a1122a69b54ce53c4f48fa5f6') in 0,015906 seconds
-  Import took 0,020500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000252 seconds.
-  path: Assets/LowPolySoldiers_demo/models/Materials/demo_soldier_512.mat
-  artifactKey: Guid(69c0fd068809d2a4cafbb12fd8e38326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolySoldiers_demo/models/Materials/demo_soldier_512.mat using Guid(69c0fd068809d2a4cafbb12fd8e38326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d134692ddbf8848b3962b4e32a60f30') in 0,009492 seconds
-  Import took 0,013547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000280 seconds.
-  path: Assets/MapMaybe/Village scene.fbx
-  artifactKey: Guid(2603ec38d6ef1a24bbb9b3dfbacc580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MapMaybe/Village scene.fbx using Guid(2603ec38d6ef1a24bbb9b3dfbacc580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76eb3dd5cad62b2728d8259b3e855e12') in 0,328981 seconds
-  Import took 0,333091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000278 seconds.
-  path: Assets/LPSoldier/models/Materials/demo_weapon.mat
-  artifactKey: Guid(cd0bd4bedad26ed43a4c433db39c0dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LPSoldier/models/Materials/demo_weapon.mat using Guid(cd0bd4bedad26ed43a4c433db39c0dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92affee0e20c136c9657d5e4ece3b61e') in 0,008935 seconds
-  Import took 0,013036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000287 seconds.
-  path: Assets/MapMaybe/Village scene.fbx
-  artifactKey: Guid(2603ec38d6ef1a24bbb9b3dfbacc580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MapMaybe/Village scene.fbx using Guid(2603ec38d6ef1a24bbb9b3dfbacc580a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76eb3dd5cad62b2728d8259b3e855e12') in 0,268621 seconds
-  Import took 0,272683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000172 seconds.
-  path: Assets/LPSoldier/models/Materials/demo_weapon.mat
-  artifactKey: Guid(cd0bd4bedad26ed43a4c433db39c0dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LPSoldier/models/Materials/demo_weapon.mat using Guid(cd0bd4bedad26ed43a4c433db39c0dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92affee0e20c136c9657d5e4ece3b61e') in 0,007551 seconds
-  Import took 0,010377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000247 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyHaloSky.mat
-  artifactKey: Guid(e523c896238589445ae28370258d26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyHaloSky.mat using Guid(e523c896238589445ae28370258d26c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae8c3c898342b29f60a87a4f54d36c3') in 0,009151 seconds
-  Import took 0,012203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000246 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fc58a39f4c8bb0380bf8a4ab8bbd68') in 0,043892 seconds
-  Import took 0,047382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000186 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyBrightMorning.mat
-  artifactKey: Guid(0b846be1b116429409a7669cacf2a62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyBrightMorning.mat using Guid(0b846be1b116429409a7669cacf2a62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc05b64585d68a7584a006e3c27f6a7d') in 0,012429 seconds
-  Import took 0,015401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000198 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyNight.mat
-  artifactKey: Guid(493bfb50af5d9424da505ba945c86600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyNight.mat using Guid(493bfb50af5d9424da505ba945c86600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb8a7325bab5278db1345854ec51b9c') in 0,011522 seconds
-  Import took 0,015685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000205 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf4bf363fdbe778c8f70af43e0e087c') in 0,017649 seconds
-  Import took 0,022536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000208 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ee09ba2a8c187ecd277ffd6712b78') in 0,044374 seconds
-  Import took 0,047803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000185 seconds.
-  path: Assets/MapMaybe/Materials/Village horizontal UVW_01 - Default_AlbedoTransparency.mat
-  artifactKey: Guid(a4bbabc5bc5daa04988706c1057c6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MapMaybe/Materials/Village horizontal UVW_01 - Default_AlbedoTransparency.mat using Guid(a4bbabc5bc5daa04988706c1057c6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961126a2f8d20623dff7e728ec681183') in 0,013775 seconds
-  Import took 0,018462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000191 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1ee09ba2a8c187ecd277ffd6712b78') in 0,020968 seconds
-  Import took 0,024274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000184 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyCloudy.mat
-  artifactKey: Guid(d11d338e6a849d84f85a289f91b3fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyCloudy.mat using Guid(d11d338e6a849d84f85a289f91b3fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dd753141794fb75c7f31ce2c3892a1') in 0,009305 seconds
-  Import took 0,012813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000276 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyAfterNoon.mat
-  artifactKey: Guid(1cf32c17fea93ef4fb120e8e0cdfbef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyAfterNoon.mat using Guid(1cf32c17fea93ef4fb120e8e0cdfbef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9736408c489bcf6dec01e79305ad72d3') in 0,010305 seconds
-  Import took 0,013539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000305 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyEarlyDusk.mat
-  artifactKey: Guid(82b660520bdecce4daf45d270ec93fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyEarlyDusk.mat using Guid(82b660520bdecce4daf45d270ec93fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40ffd98e800b66fb1467d5407e49e53') in 0,012018 seconds
-  Import took 0,015071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000217 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c61b5a044c670109d5a0f44022afe') in 0,024783 seconds
-  Import took 0,028254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000194 seconds.
-  path: Assets/Day-Night Skyboxes/Materials/SkyNoon.mat
-  artifactKey: Guid(3e56423e1fe71f94ea97f5bb2004a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Day-Night Skyboxes/Materials/SkyNoon.mat using Guid(3e56423e1fe71f94ea97f5bb2004a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5938c7ed4b2220b4c16bdb1b7ed450b6') in 0,015096 seconds
-  Import took 0,019760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0,000247 seconds.
-  path: Assets/MapMaybe/Materials/TexturesCom_SoilBeach0101_1_seamless_SN.mat
-  artifactKey: Guid(75d03dcd93498a743a34c6a7c39f82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MapMaybe/Materials/TexturesCom_SoilBeach0101_1_seamless_SN.mat using Guid(75d03dcd93498a743a34c6a7c39f82d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efef1cf6bf6a241d377f3697dca26d8c') in 0,008124 seconds
-  Import took 0,011162 seconds .
+  Time since last request: 22,297274 seconds.
+  path: Assets/Scenes/SandboxScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandboxScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aeb84e1a7fb5e636ffc4f4f151028e') in 0,001567 seconds
+  Import took 0,005522 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0,000938 seconds.
+Registered in 0,000636 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0,66 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,055 seconds
+- Completed reload, in  0,915 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0,39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 1492 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72,9 MB.
-System memory in use after: 72,9 MB.
+System memory in use before: 70,4 MB.
+System memory in use after: 70,5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2005.
-Total: 4,490728 ms (FindLiveObjects: 0,192952 ms CreateObjectMapping: 0,032712 ms MarkObjects: 4,159385 ms  DeleteObjects: 0,104125 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 4,182739 ms (FindLiveObjects: 0,276049 ms CreateObjectMapping: 0,055284 ms MarkObjects: 3,716302 ms  DeleteObjects: 0,132248 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 721,978610 seconds.
+  path: Assets/Scripts/ShootRaycastScript.cs
+  artifactKey: Guid(25bd5b2916beb294cbd8e7c337cf04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShootRaycastScript.cs using Guid(25bd5b2916beb294cbd8e7c337cf04d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dc8b9947c6571cdc01c79c402729a5') in 0,005756 seconds
+  Import took 0,010598 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0,37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0,898 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0,35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 1519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73,0 MB.
+System memory in use after: 72,8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 6,065056 ms (FindLiveObjects: 0,265448 ms CreateObjectMapping: 0,093386 ms MarkObjects: 5,146559 ms  DeleteObjects: 0,557898 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
