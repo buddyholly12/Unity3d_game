@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0637dfd2966be5648bf700ab995422c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ZombieSpawnScr: {fileID: 0}
+  PlayerSpawnScr: {fileID: 0}
+  zombieToKill: 5
+  lifeLimit: 1

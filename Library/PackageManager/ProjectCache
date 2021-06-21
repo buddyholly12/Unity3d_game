@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637518299016216279
+      ticks: 637598706845149178
     m_Hash: 2596439009
   m_LockFileStatus:
     m_FilePath: D:/UnityProj/Unity3d_game/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637594417242830842
+      ticks: 637598759095172067
     m_Hash: 2165791428
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -511,12 +511,14 @@ m_PackageAssets:
         - 1.1.22
         - 1.1.24
         - 1.1.26
+        - 1.1.27
         compatible:
         - 1.1.20
         - 1.1.22
         - 1.1.24
         - 1.1.26
-        verified: 1.1.26
+        - 1.1.27
+        verified: 1.1.27
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
