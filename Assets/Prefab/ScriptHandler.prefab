@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6441819297410599895}
   - component: {fileID: -8823703606550652425}
+  - component: {fileID: 7397428642664373451}
+  - component: {fileID: 7174888493603552183}
+  - component: {fileID: 700723496307849300}
+  - component: {fileID: 8665623035717400027}
   m_Layer: 0
   m_Name: ScriptHandler
   m_TagString: Untagged
@@ -47,3 +51,58 @@ MonoBehaviour:
   PlayerSpawnScr: {fileID: 0}
   zombieToKill: 5
   lifeLimit: 1
+--- !u!114 &7397428642664373451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703014466107835743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d636e9086f680a548b1ad5f293b3deb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spectatorCam: {fileID: 0}
+  activePlayerCam: {fileID: 0}
+  spawnScript: {fileID: 0}
+--- !u!114 &7174888493603552183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703014466107835743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de53f7856e1f2c4db5523dcf1164663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spectateCam: {fileID: 0}
+  playerCam: {fileID: 0}
+--- !u!114 &700723496307849300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703014466107835743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ccbface9da7df48ac4224269629e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8665623035717400027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703014466107835743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c356e0b356b8ca43a09b1139c98801a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseCanvas: {fileID: 0}
+  gameIsPaused: 0

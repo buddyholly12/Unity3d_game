@@ -1317,54 +1317,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
---- !u!1 &931224987 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 703014466107835743, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
-  m_PrefabInstance: {fileID: 1390874949}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &931224988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931224987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d636e9086f680a548b1ad5f293b3deb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spectatorCam: {fileID: 579287658}
-  activePlayerCam: {fileID: 0}
-  spawnScript: {fileID: 795401394}
---- !u!114 &931224989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931224987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5de53f7856e1f2c4db5523dcf1164663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spectateCam: {fileID: 579287658}
-  playerCam: {fileID: 0}
---- !u!114 &931224990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931224987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c356e0b356b8ca43a09b1139c98801a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseCanvas: {fileID: 1081142133}
-  gameIsPaused: 0
 --- !u!1 &1081142133 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7587371081525010069, guid: 34a2196d389834043af14602a0dc6f2f, type: 3}
@@ -1375,7 +1327,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
   m_PrefabInstance: {fileID: 1390874949}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 931224987}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0637dfd2966be5648bf700ab995422c1, type: 3}
@@ -1577,6 +1529,14 @@ PrefabInstance:
       propertyPath: RandSpawnScr
       value: 
       objectReference: {fileID: 1788797795}
+    - target: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: PlayerSpawnScr
+      value: 
+      objectReference: {fileID: 795401394}
+    - target: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: ZombieSpawnScr
+      value: 
+      objectReference: {fileID: 1788797795}
     - target: {fileID: 703014466107835743, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
       propertyPath: m_Name
       value: ScriptHandler
@@ -1625,6 +1585,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7174888493603552183, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: spectateCam
+      value: 
+      objectReference: {fileID: 579287658}
+    - target: {fileID: 7397428642664373451, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: spawnScript
+      value: 
+      objectReference: {fileID: 795401394}
+    - target: {fileID: 7397428642664373451, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: spectatorCam
+      value: 
+      objectReference: {fileID: 579287658}
+    - target: {fileID: 8665623035717400027, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
+      propertyPath: PauseCanvas
+      value: 
+      objectReference: {fileID: 1081142133}
     m_RemovedComponents:
     - {fileID: 4655357902070458616, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
@@ -1982,7 +1958,7 @@ PrefabInstance:
     - target: {fileID: 2350002669096092608, guid: 34a2196d389834043af14602a0dc6f2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 931224990}
+      objectReference: {fileID: 0}
     - target: {fileID: 2350002669096092608, guid: 34a2196d389834043af14602a0dc6f2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2098,7 +2074,7 @@ PrefabInstance:
     - target: {fileID: 7133449038365748882, guid: 34a2196d389834043af14602a0dc6f2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 931224990}
+      objectReference: {fileID: 0}
     - target: {fileID: 7133449038365748882, guid: 34a2196d389834043af14602a0dc6f2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

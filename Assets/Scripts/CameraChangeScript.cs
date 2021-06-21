@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraChangeScript : MonoBehaviour
 {
     public Camera spectatorCam;
-    public Camera activePlayerCam;
+    private Camera activePlayerCam;
     public SpawnerScript spawnScript;
     // Start is called before the first frame update
     void Start(){
@@ -37,8 +37,6 @@ public class CameraChangeScript : MonoBehaviour
     void ChangeToSpectatorCam(){
         //activePlayerCam.enabled = false;
         spectatorCam.enabled = true;
-        
-        
     }
 
 }
