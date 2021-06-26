@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: {x: 5, y: 0, z: 5}
   spawnees:
-  - {fileID: 245668900310758213, guid: 77af25a0e3abfa440bd596b62b4536e6, type: 3}
+  - {fileID: -927199367670048503, guid: 79969b20b5ba62e499ee433a4dd38701, type: 3}
   spawneeTracker: []
   stopSpawning: 0
   spawnTime: 1
