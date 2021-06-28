@@ -142,6 +142,10 @@ PrefabInstance:
       propertyPath: size.z
       value: 80
       objectReference: {fileID: 0}
+    - target: {fileID: 1040469551408387342, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
+      propertyPath: spawnees.Array.data[0]
+      value: 
+      objectReference: {fileID: 7141405143635743999, guid: 21fb904ba7d38ce41863728f58dfd34e, type: 3}
     - target: {fileID: 2848592661499020777, guid: 08d1b5e792d6a164f91e8cbfff1dd699, type: 3}
       propertyPath: m_RootOrder
       value: 1
