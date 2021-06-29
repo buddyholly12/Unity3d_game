@@ -1,779 +1,109 @@
 Using pre-set license
-Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19041.1052; Version 2004; 64bit' Language: 'en' Physical Memory: 16238 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Desktop is 3360 x 1080 @ 60 Hz
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\EditorInstalls\2020.2.3f1\Editor\Unity.exe
+Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/UnityProj/Unity3d_game
+/home/andreas/Documents/GitHub/Unity3d_game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64974
-Successfully changed project path to: D:/UnityProj/Unity3d_game
-D:/UnityProj/Unity3d_game
+43223
+Successfully changed project path to: /home/andreas/Documents/GitHub/Unity3d_game
+/home/andreas/Documents/GitHub/Unity3d_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.10 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 33,43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
-[Subsystems] Discovering subsystems at path D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProj/Unity3d_game/Assets
-GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
-    Vendor:   
-    VRAM:     4021 MB
-    Driver:   27.21.14.6627
+[Subsystems] Discovering subsystems at path /home/andreas/app_unity/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/andreas/Documents/GitHub/Unity3d_game/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_ARB_get_proc_address 
+Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 465.27
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
+_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
+ GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 881291624
 Initialize mono
-Mono path[0] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Mono path[0] = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/andreas/app_unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56878
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/EditorInstalls/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001044 seconds.
+Register platform support module: /home/andreas/app_unity/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/andreas/app_unity/2020.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,002996 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 24.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 31,90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.298 seconds
+- Completed reload, in  1,294 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000729 seconds.
+Registered in 0,000641 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 0,30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.480 seconds
+- Completed reload, in  1,737 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0,31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 1513 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.8 MB.
-System memory in use after: 77.9 MB.
+System memory in use before: 71,5 MB.
+System memory in use after: 71,5 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 2.576800 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.246000 ms  DeleteObjects: 0.132800 ms)
+Total: 4,812571 ms (FindLiveObjects: 0,361782 ms CreateObjectMapping: 0,095179 ms MarkObjects: 4,131498 ms  DeleteObjects: 0,221548 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/HUDCanvas.prefab
-  artifactKey: Guid(b87148c2281dada40a181821a41a9eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HUDCanvas.prefab using Guid(b87148c2281dada40a181821a41a9eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5d29767b1da48de7cea721842d19fb') in 0.062242 seconds
-  Import took 0.065065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(4e3952fe44d773748912afe862a09220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(4e3952fe44d773748912afe862a09220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e98e06e3f67c18ab28efa7ec6804c5') in 0.006950 seconds
-  Import took 0.010178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Prefab/ScriptHandler.prefab
-  artifactKey: Guid(32cb3665875aac5408674a9a8d5ecfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ScriptHandler.prefab using Guid(32cb3665875aac5408674a9a8d5ecfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9e7119dd241c5d79206babe1d4bc7e') in 0.010095 seconds
-  Import took 0.013744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Prefab/ZombieSpawner.prefab
-  artifactKey: Guid(08d1b5e792d6a164f91e8cbfff1dd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieSpawner.prefab using Guid(08d1b5e792d6a164f91e8cbfff1dd699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c244e46557fdf68918e4ada87cca5e') in 0.021535 seconds
-  Import took 0.025184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Prefab/PlayerSpawner.prefab
-  artifactKey: Guid(6b5c5ad97e3f6e945986628aef192fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PlayerSpawner.prefab using Guid(6b5c5ad97e3f6e945986628aef192fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fa98659362dd8cee4d2ce14924406b') in 0.026960 seconds
-  Import took 0.030695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/Prefab/TestPlayer.prefab
-  artifactKey: Guid(4726714dcdf8f154f831a244eedc755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TestPlayer.prefab using Guid(4726714dcdf8f154f831a244eedc755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d46e8b3ac709d9595af1b7f27e46e8') in 0.124296 seconds
-  Import took 0.127554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Prefab/zombie.prefab
-  artifactKey: Guid(77af25a0e3abfa440bd596b62b4536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/zombie.prefab using Guid(77af25a0e3abfa440bd596b62b4536e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923cb084526b8d5e74a71fb80c191ffa') in 0.022780 seconds
-  Import took 0.025423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Prefab/PauseCanvas.prefab
-  artifactKey: Guid(34a2196d389834043af14602a0dc6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/PauseCanvas.prefab using Guid(34a2196d389834043af14602a0dc6f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d555b069c6c85a36f994b2946330ecf') in 0.071417 seconds
-  Import took 0.075127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Prefab/EventSystem.prefab
-  artifactKey: Guid(a0ade4cd1df06a54d9ef4397ff22ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/EventSystem.prefab using Guid(a0ade4cd1df06a54d9ef4397ff22ce76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66092c33066107ae51b8e16a084fc517') in 0.010100 seconds
-  Import took 0.012651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Prefab/TempBullet.prefab
-  artifactKey: Guid(96882b7d2a5ea9e498711565b3ba848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/TempBullet.prefab using Guid(96882b7d2a5ea9e498711565b3ba848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a4d928c1c54bbfbb59c8c394a3eff7') in 0.017455 seconds
-  Import took 0.020842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.124705 seconds.
-  path: Assets/Zombie
-  artifactKey: Guid(57c62880cec9e2642a378ab6148e6123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie using Guid(57c62880cec9e2642a378ab6148e6123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911c87dcc18d736305d8851d2f2120f1') in 0.008833 seconds
-  Import took 0.011331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044998 seconds.
-  path: Assets/Zombie/zombie.fbx
-  artifactKey: Guid(bd7a07f91c454ac4caab2546bdfc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/zombie.fbx using Guid(bd7a07f91c454ac4caab2546bdfc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850fb37646ff0d3640d9baf2fece3966') in 0.114045 seconds
-  Import took 0.116720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.250489 seconds.
-  path: Assets/Zombie/Prefabs
-  artifactKey: Guid(62092c25312055548a5b415184883759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs using Guid(62092c25312055548a5b415184883759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dcd1db2656cb2a4962f81ed1c01834') in 0.008026 seconds
-  Import took 0.010417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046665 seconds.
-  path: Assets/Zombie/Prefabs/Zombie1.prefab
-  artifactKey: Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie1.prefab using Guid(6dc4cf4496348884d8ee27743ae38562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295e68462429daac31dc4f8739b823e6') in 0.312267 seconds
-  Import took 0.315584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/Zombie/Prefabs/Zombie3.prefab
-  artifactKey: Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie3.prefab using Guid(06cb2b131fe009c47a523671a8fa9ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cc3e72dcb4e57aa6b987a521fb96a9') in 0.073642 seconds
-  Import took 0.076936 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Zombie/Prefabs/Zombie2.prefab
-  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a580afe92aa380b81038a849ffe8bc66') in 0.071564 seconds
-  Import took 0.074686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.328953 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Attack.FBX
-  artifactKey: Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Attack.FBX using Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b372f90c7426d90c4dce9eef52161cca') in 0.176701 seconds
-  Import took 0.180283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk1.FBX
-  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7b929f1c119192040a7bf610c63898') in 0.145568 seconds
-  Import took 0.149222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX
-  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632d5ccd1c2e81dce59d8d20f7449330') in 0.135001 seconds
-  Import took 0.138176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Run.FBX
-  artifactKey: Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Run.FBX using Guid(55edd2c9d257d3f4481dfd16015bf8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f65f17fa790e9be1500028c71ff083') in 0.129921 seconds
-  Import took 0.132916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk.FBX
-  artifactKey: Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk.FBX using Guid(59dbfb66512f63c4eb6e1e30e0603198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd44ea5d7f744f4f06ba7631424ae6d7') in 0.132748 seconds
-  Import took 0.135900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Attack.FBX
-  artifactKey: Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Attack.FBX using Guid(631762b9a30b33a42836730a6b37d13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b372f90c7426d90c4dce9eef52161cca') in 0.127446 seconds
-  Import took 0.130880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Idle.FBX
-  artifactKey: Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Idle.FBX using Guid(0d6373858f853604b960cf84b7d3dfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78807fd04dc29b1964fe2eb011a6a2de') in 0.132084 seconds
-  Import took 0.136343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX
-  artifactKey: Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_FallingForward.FBX using Guid(d870b4f0cba458640b29cda304d40186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c40bdba99b1978882737339091cdaff') in 0.029976 seconds
-  Import took 0.034010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
-  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30319b0adb6bfe7d8ec7a56061a9305f') in 0.131028 seconds
-  Import took 0.134638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX
-  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93996dadc26758890a5eafa33a639f4') in 0.128844 seconds
-  Import took 0.132164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX
-  artifactKey: Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Animations/Zombie@Z_FallingBack.FBX using Guid(857241dcf6bb2ea45a0b3f46d78f44b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726e4e21a2634b5c4d078ec8e3254ee0') in 0.029975 seconds
-  Import took 0.032946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.501444 seconds.
-  path: Assets/Zombie/ZombieWalk.anim
-  artifactKey: Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/ZombieWalk.anim using Guid(d2a2204747ec9844dac4cff684a3bd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82dcc99b0f7986471da4633a39153f7c') in 0.014814 seconds
-  Import took 0.017330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.369168 seconds.
-  path: Assets/Zombie/ZombieIdle.anim
-  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/ZombieIdle.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c7ec8400f0e17a18015d8cd4f6ce53') in 0.009940 seconds
-  Import took 0.013070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002498 seconds.
-  path: Assets/Zombie/ZombieIdle.anim
-  artifactKey: Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/ZombieIdle.anim using Guid(b93154b9a650cfd4d9deeada3b7b9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c7ec8400f0e17a18015d8cd4f6ce53') in 0.004099 seconds
-  Import took 0.007433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1721.063597 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2564f83bf4d2c3b937670832615399') in 0.008040 seconds
-  Import took 0.011409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.444572 seconds.
-  path: Assets/Zombie/Textures
-  artifactKey: Guid(5ccd003863ea1cb48bb2f7bceda0a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures using Guid(5ccd003863ea1cb48bb2f7bceda0a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88d0957f34b8a834a25eccb1fef8513') in 0.006854 seconds
-  Import took 0.009552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.048476 seconds.
-  path: Assets/Zombie/Textures/Zombie.tga
-  artifactKey: Guid(6291fbf5d0e7c4642ad863eaf8b60622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/Zombie.tga using Guid(6291fbf5d0e7c4642ad863eaf8b60622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbe409ac07c7e8e601d6fd8c5e6e64c') in 0.064513 seconds
-  Import took 0.066904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Zombie/Textures/Zombie_nm.png
-  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1865260783aa5b180db08b10f3d063f') in 0.022601 seconds
-  Import took 0.024947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Zombie/Textures/Zombie_metallic.tga
-  artifactKey: Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/Zombie_metallic.tga using Guid(33de7c829c3a0224c8975ad93b61b05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cbd165e816379d341bfba42d2800c9') in 0.013690 seconds
-  Import took 0.017494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Zombie/Textures/zombie_emission.tga
-  artifactKey: Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/zombie_emission.tga using Guid(d681134af7b3e50479d8d90effa0e1eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f221925b12e45b57bfe511e75381d7d5') in 0.015510 seconds
-  Import took 0.019118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Zombie/Textures/Zombie_ao.png
-  artifactKey: Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Zombie/Textures/Zombie_ao.png using Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdfe52e35d4539454c87c4fc33b8594') in 0.014714 seconds
-  Import took 0.017550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.777179 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(5e373188708f7fc458aaa074fe78777f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(5e373188708f7fc458aaa074fe78777f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacbfa66a2f97e801afa2e87d91d69f1') in 0.007303 seconds
-  Import took 0.010854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 784.853465 seconds.
   path: Assets/Scenes/Cube.prefab
   artifactKey: Guid(e51735bff5303a31b9541792976e6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cube.prefab using Guid(e51735bff5303a31b9541792976e6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bb263a3e6b631723d13eee9dcc2468') in 0.016654 seconds
-  Import took 0.019777 seconds .
+Start importing Assets/Scenes/Cube.prefab using Guid(e51735bff5303a31b9541792976e6078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e161970ca74f6f884b1a01f523d7516') in 0,080499 seconds
+  Import took 0,085226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.862497 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(faa525fd7aa51bd4d892e49b987fb90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(faa525fd7aa51bd4d892e49b987fb90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1007f5b19ef99b2bb3502ef3f5d1776c') in 0.007677 seconds
-  Import took 0.010561 seconds .
+  Time since last request: 13,164952 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122d51ece59d10d0efa98437aa17d0a3') in 0,001312 seconds
+  Import took 0,005882 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.163607 seconds.
-  path: Assets/Scenes/SandboxScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SandboxScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f169100103e1aa9f59697b081a56f5') in 0.008242 seconds
-  Import took 0.010702 seconds .
+  Time since last request: 0,023983 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(2909ebd982f795991aa434252d05b905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122d51ece59d10d0efa98437aa17d0a3') in 0,001061 seconds
+  Import took 0,005417 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 54.874144 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9983ed4e13b40d58d7d873fc53548b') in 0.084000 seconds
-  Import took 0.087735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.222843 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a3c67af0f44a5ad0faa38ced4707a8') in 0.121018 seconds
-  Import took 0.125471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.884243 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15898639623a4996d31001c3a67c52e') in 0.081992 seconds
-  Import took 0.086844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.797526 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e308c890f90801a5b1fe9149becadf0f') in 0.081522 seconds
-  Import took 0.085735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.349422 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f541755e2b75cb4ec89410fa11d641ec') in 0.078411 seconds
-  Import took 0.083590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527708 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99afa2503e560c6fcea5fbb15c995bb') in 0.095649 seconds
-  Import took 0.100056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.519723 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5409aa42007a587092fcf19af1751d9c') in 0.080016 seconds
-  Import took 0.084057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.442759 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394c8cfeff2a79ff3d24e0c6986d4f8c') in 0.087102 seconds
-  Import took 0.091918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.545200 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8eeab194a2f123818b8935ded220f05') in 0.082649 seconds
-  Import took 0.086615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.715506 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b303158b6fce2b21b08d11e28689da63') in 0.078192 seconds
-  Import took 0.083121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.361111 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9516ac24ffe9b0f632dbd9de103fbd99') in 0.084103 seconds
-  Import took 0.088564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.590540 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87bcdb038b4b09902d486a49906a9895') in 0.084050 seconds
-  Import took 0.088575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.211026 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0290164ff2cb323e40be2bd9908dfc91') in 0.084977 seconds
-  Import took 0.089710 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2008.
-Total: 3.591700 ms (FindLiveObjects: 0.491900 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.871300 ms  DeleteObjects: 0.109500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 171.274631 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeeafeec7cf1068194053263494ed929') in 0.137978 seconds
-  Import took 0.142420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.742456 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e59c83780df5c19d03a78a02a279439') in 0.083715 seconds
-  Import took 0.088731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.565248 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fb1ec93ec5ae466129c78725b0d9c4') in 0.080357 seconds
-  Import took 0.084765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.431898 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6eee832193a5d4043dbc979299e12d') in 0.086791 seconds
-  Import took 0.091176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.580407 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429faab82a98972e80a891d5ed37fe41') in 0.091832 seconds
-  Import took 0.095760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.685634 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0757d5a73cbb7bfe3ffa8003f3027ea3') in 0.079694 seconds
-  Import took 0.084370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.915736 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f13841bd4ceba6d6dc007271c7a058e') in 0.079870 seconds
-  Import took 0.083753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.449300 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c459b2a2205f8042f367514666baf2') in 0.073262 seconds
-  Import took 0.076873 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001323 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 2.111800 ms (FindLiveObjects: 0.166000 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.787600 ms  DeleteObjects: 0.111200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.446696 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dda5941d75c9b757f021fe14129d3de') in 0.117554 seconds
-  Import took 0.121099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.321700 seconds.
-  path: Assets/Prefab/ZombieAnother.prefab
-  artifactKey: Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ZombieAnother.prefab using Guid(21fb904ba7d38ce41863728f58dfd34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dda5941d75c9b757f021fe14129d3de') in 0.080739 seconds
-  Import took 0.087794 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001117 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.920 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.3 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2014.
-Total: 2.757000 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.329700 ms  DeleteObjects: 0.125000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.337729 seconds.
-  path: Assets/Scenes/DesertScene.unity
-  artifactKey: Guid(743912512aca798468cf3d7ac8f0ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DesertScene.unity using Guid(743912512aca798468cf3d7ac8f0ad35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1393e45bcf386dbf88649d3858c93c56') in 0.016428 seconds
-  Import took 0.018808 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000738 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.822 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2016.
-Total: 2.613600 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.043000 ms MarkObjects: 2.307000 ms  DeleteObjects: 0.114900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000754 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2018.
-Total: 4.685300 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.078100 ms MarkObjects: 4.027900 ms  DeleteObjects: 0.251800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000891 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2020.
-Total: 3.416200 ms (FindLiveObjects: 0.255500 ms CreateObjectMapping: 0.046300 ms MarkObjects: 3.017700 ms  DeleteObjects: 0.095600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000718 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.881 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2022.
-Total: 3.287300 ms (FindLiveObjects: 0.217300 ms CreateObjectMapping: 0.048000 ms MarkObjects: 2.941700 ms  DeleteObjects: 0.077400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001013 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.873 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1493 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.4 MB.
-System memory in use after: 92.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2024.
-Total: 2.453800 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.049200 ms MarkObjects: 2.006200 ms  DeleteObjects: 0.121800 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
