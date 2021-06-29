@@ -865,7 +865,7 @@ PrefabInstance:
       objectReference: {fileID: 1925239833}
     - target: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
       propertyPath: zombieToKill
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8823703606550652425, guid: 32cb3665875aac5408674a9a8d5ecfca, type: 3}
       propertyPath: PlayerSpawnScr

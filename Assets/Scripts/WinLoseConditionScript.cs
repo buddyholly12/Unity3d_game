@@ -31,12 +31,15 @@ public class WinLoseConditionScript : MonoBehaviour
     public void Win() {
         Time.timeScale = 0;
         Debug.Log("Win");
-      SceneManager.LoadScene("WinScene");
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("WinScene");
     }
 
     public void Lose() {
         Time.timeScale = 0;
         Debug.Log("Lose");
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("LoseScene");
     }
     
 }

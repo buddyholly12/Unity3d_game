@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DesertScene.unity
     guid: 743912512aca798468cf3d7ac8f0ad35
+  - enabled: 1
+    path: Assets/Scenes/WInScene.unity
+    guid: e73777f617419af938da4eaab57f15df
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: f84e3ff5772cd2ffdb7ad23fc52b6493
   m_configObjects: {}
