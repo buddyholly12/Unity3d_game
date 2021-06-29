@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class WinLoseConditionScript : MonoBehaviour
 {
     public RandomSpawnerScript ZombieSpawnScr;
@@ -31,6 +31,7 @@ public class WinLoseConditionScript : MonoBehaviour
     public void Win() {
         Time.timeScale = 0;
         Debug.Log("Win");
+      SceneManager.LoadScene("WinScene");
     }
 
     public void Lose() {
