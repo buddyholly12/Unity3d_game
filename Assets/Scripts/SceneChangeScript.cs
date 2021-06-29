@@ -22,6 +22,10 @@ public class SceneChangeScript : MonoBehaviour
         SceneManager.LoadScene("DesertScene");
     }
 
+    public void ChangeToMainMenu() {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
